@@ -1,0 +1,48 @@
+
+
+
+.menuNav{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+
+  a{
+    color: var(--white);
+    padding: 0 0.1rem;
+    display: inline-block;
+    position: relative;
+    transition: color 0.7s;
+    font-size: 12px;
+
+    & + a {
+      margin-left: 2rem;
+    }
+
+    &:hover{
+      color: var(--red-900);
+    }
+
+  }
+
+
+  button{
+    
+    background: transparent;
+    border:0;
+    transition: transform 0.8s;
+
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+
+
+
+
+}
+.navButton{
+margin-left: 55rem;
+}

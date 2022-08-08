@@ -1,0 +1,130 @@
+.bt{
+  cursor: pointer;
+}
+.table{
+  width: 100%;
+ 
+}
+
+.colDescription{
+
+  background-color: #fff;
+  padding: 10px;
+  width: 700px;
+  font-size: 12px;
+  color: skyblue;
+  text-align: left;
+
+}
+.coltag{
+ 
+  background-color: #fff;
+  padding: 10px;
+  width: 400px;
+  font-size: 12px;
+  
+
+
+
+}
+.colDesenho{
+
+  background-color: #fff;
+  padding: 10px;
+  width: 200px;
+  font-size: 12px;
+  
+
+}
+
+.colDeletar{
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  width: 50px;
+  font-size: 12px;
+}
+
+
+.container{
+  padding: 20px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.containerButton{
+  width: 100%;
+  margin-bottom: 60px;
+}
+.containerIntro{
+  margin-top: 10px;
+  width: 100%;
+  
+}
+.button{
+  border: none;
+  border-radius: 5px;
+  float: right;
+  background-color: skyblue;
+  color: #fff;
+ text-align: center;
+ padding: 10px;
+  margin-top: 10px;
+  height: 35px;
+  width: 100px;
+  font-size: 12px;
+  
+  
+}
+.curso{
+  cursor: pointer;
+  font-size: 16px;
+  color: red;
+  
+}
+.concluido{
+  background-color:  #3ADF00;
+  color: #fff;
+  padding: 10px;
+  width: 170px;
+  font-size: 12px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.andamento{
+  color: #FFf;
+  background-color: #FFBF00;
+  padding: 10px;
+  width: 170px;
+  font-size: 12px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.agendado{
+  color: #FFf;
+  background-color: #819FF7;
+  padding: 10px;
+  width: 170px;
+  font-size: 12px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.marcacao{
+  color: #FFf;
+  background-color: red;
+  padding: 10px;
+  width: 170px;
+  font-size: 12px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+
+}
+

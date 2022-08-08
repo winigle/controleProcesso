@@ -1,0 +1,164 @@
+
+.container{
+  max-width: 750px;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+
+}
+
+.container2{
+ padding: 20px;
+  
+
+}
+
+.title{
+  padding: 6px;
+  font-size: 20px;
+  color: #fff;
+  background-color: skyblue;
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  border-color: #fff;
+ 
+
+}
+
+
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  
+  
+}
+
+.label{
+ 
+  font-size: 12px;
+
+  
+}
+
+.input{
+  background-color: var(--dark-900);
+  border:0;
+  height: 40px;
+  border-radius: 0.3rem;
+  color: var(--white);
+  border: 1px solid #ccc;
+  padding: 0 0.5rem;
+  font-size: 10px;
+  margin: 10px;
+  
+  
+}
+
+.buttonAdd{
+  height: 40px;
+  max-width: 100px;
+  border:0;
+  background-color: skyblue;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 0.3rem;
+  color: #fff;
+  padding: 1rem;
+  margin: 10px;
+ 
+}
+.row1{
+
+  flex-direction: row;
+  display: flex;
+  font-size: 12px;
+  
+  
+
+}
+
+.row2{
+
+  flex-direction: row;
+  display: flex;
+  font-size: 12px;
+  
+  
+
+}
+.input_row2{
+  background-color: var(--dark-900);
+  border:0;
+  
+  height: 40px;
+  border-radius: 0.3rem;
+  color: var(--white);
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+  font-size: 10px;
+  margin-top: 10px;
+  
+  width: 80px;
+ 
+  
+}
+
+
+
+.input_descricao{
+  background-color: var(--dark-900);
+  border:0;
+  height: 40px;
+  border-radius: 0.3rem;
+  color: var(--white);
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 10px;
+  margin: 3px;
+
+  display: block;
+  width: 500px;
+}
+.input_cargo{
+  background-color: var(--dark-900);
+  border:0;
+  display: block;
+  height: 40px;
+  border-radius: 0.3rem;
+  color: var(--white);
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 10px;
+
+  
+  width: 110px;
+}
+
+.input_cargo1{
+  background-color: var(--dark-900);
+  border:0;
+  display: block;
+  height: 40px;
+  border-radius: 0.3rem;
+  color: var(--white);
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 10px;
+  margin: 3px;
+  
+  width: 170px;
+}

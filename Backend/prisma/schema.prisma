@@ -1,0 +1,48 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// criar uma migration: yarn prisma migrate dev
+
+
+model User {
+  id String @id @default(uuid())
+  name String
+  email String
+  password String
+  created_at DateTime? @default(now())
+  updated_at DateTime? @default(now())
+
+  @@map("users")
+}
+model controll {
+  id String @id @default(uuid())
+  name String
+  cargo String
+  triagem String
+  descTriagem String
+  exame  String
+  descExame String
+  clinico String
+  descClinico String
+  nr33 String
+  descNr33 String
+  nr35 String
+   descNr35 String
+  cracha String
+   descCracha String
+  created_at DateTime? @default(now())
+  updated_at DateTime? @default(now())
+
+ @@map("controlls")
+}
+
+

@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "ativid" ALTER COLUMN "inicio" SET DATA TYPE TEXT,
+ALTER COLUMN "termino" SET DATA TYPE TEXT;
