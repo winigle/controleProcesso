@@ -61,7 +61,7 @@ export default function Category(){
     })
     
 
-    toast.success('Cadastrada com sucesso!')
+    toast.success('Cadastrada com sucesso 4!')
     setName('');
     setCargo('');
     setTriagem('');
